@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engineer Weam | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
         tailwind.config = {
             theme: {
@@ -21,7 +22,6 @@
 </head>
 <body class="bg-slate-700 text-slate-900 min-h-screen flex flex-col font-sans select-none">
 
-    <!-- Top Navigation Bar -->
     <header class="bg-slate-600/90 border-b border-slate-500 px-6 py-3 flex flex-wrap justify-between items-center sticky top-0 z-50">
         <span class="font-extrabold text-white text-lg tracking-wider">ENGINEER WEAM</span>
         <nav class="flex gap-2 text-xs sm:text-sm font-semibold">
@@ -33,10 +33,8 @@
         </nav>
     </header>
 
-    <!-- Main Content Container -->
     <main class="flex-1 max-w-2xl w-full mx-auto px-6 py-8 flex flex-col justify-center">
 
-        <!-- Page 1: Home -->
         <section id="page-home" class="page-content bg-slate-400 border-2 border-slate-500 rounded-2xl p-8 text-center space-y-6 shadow-xl">
             <div class="flex justify-center">
                 <svg class="w-64 h-12 text-slate-800" viewBox="0 0 400 60" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -62,7 +60,6 @@
             </div>
         </section>
 
-        <!-- Page 2: About Me -->
         <section id="page-about" class="page-content hidden bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-4">
                 <h2 class="text-xl font-bold tracking-widest text-slate-900">ABOUT ME</h2>
@@ -84,22 +81,21 @@
                 </div>
                 <div class="text-xs space-y-3 text-slate-800">
                     <div>
-                        <strong class="block text-slate-900 font-bold">Artificial Intelligence</strong>
+                        <strong class="block text-slate-900 font-bold"><i class="fa-solid fa-brain mr-1 text-slate-900"></i> Artificial Intelligence</strong>
                         <span>TensorFlow/Keras , OpenCV</span>
                     </div>
                     <div>
-                        <strong class="block text-slate-900 font-bold">Web Development</strong>
+                        <strong class="block text-slate-900 font-bold"><i class="fa-solid fa-code mr-1 text-slate-900"></i> Web Development</strong>
                         <span>HTML , CSS , JavaScript</span>
                     </div>
                     <div>
-                        <strong class="block text-slate-900 font-bold">Tools</strong>
+                        <strong class="block text-slate-900 font-bold"><i class="fa-solid fa-tools mr-1 text-slate-900"></i> Tools</strong>
                         <span>MATLAB , GitHub , Figma</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Page 3: Projects -->
         <section id="page-projects" class="page-content hidden bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-4">
                 <h2 class="text-xl font-bold tracking-widest text-slate-900">PROJECTS</h2>
@@ -110,8 +106,8 @@
                     <span class="text-xs text-slate-800 font-normal">3rd Place-College Graduation Projects</span>
                 </p>
                 <div class="space-y-2">
-                    <a href="https://drive.google.com/file/d/1HatqcY8fk-QlEur4kQY83jG268s_S9E_/view?usp=drivesdk" target="_blank" class="block text-xs text-blue-900 underline font-medium hover:text-white transition">↗ View Project Poster</a>
-                    <a href="https://drive.google.com/file/d/1jywTqsh9zhf0nz4hLhuuWp3emNiR0L41/view?usp=drivesdk" target="_blank" class="block text-xs text-blue-900 underline font-medium hover:text-white transition">↗ View Certificates of Appreciation</a>
+                    <a href="https://drive.google.com/file/d/1HatqcY8fk-QlEur4kQY83jG268s_S9E_/view?usp=drivesdk" target="_blank" class="block text-xs text-blue-900 underline font-medium hover:text-white transition"><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> View Project Poster</a>
+                    <a href="https://drive.google.com/file/d/1jywTqsh9zhf0nz4hLhuuWp3emNiR0L41/view?usp=drivesdk" target="_blank" class="block text-xs text-blue-900 underline font-medium hover:text-white transition"><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> View Certificates of Appreciation</a>
                 </div>
             </div>
             <div class="flex justify-center pt-2">
@@ -123,49 +119,47 @@
             </div>
         </section>
 
-        <!-- Page 4: Certificates & Courses -->
         <section id="page-certificates" class="page-content hidden bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-5 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-3">
                 <h2 class="text-base sm:text-lg font-bold tracking-widest text-slate-900">CERTIFICATES & COURSES</h2>
             </div>
             <div class="space-y-4 text-xs">
                 <div class="text-center border-b border-slate-400 pb-2">
-                    <p class="font-bold text-slate-900">Training Certificates Smart Methods.2025</p>
+                    <p class="font-bold text-slate-900"><i class="fa-solid fa-certificate text-yellow-800 mr-1"></i> Training Certificates Smart Methods.2025</p>
                     <a href="https://drive.google.com/file/d/1jH-_RsqkbgIyqXAsuHVLdEY3eEgTcwhp/view?usp=drivesdk" target="_blank" class="text-blue-900 underline block mt-0.5">↗ View Certificates</a>
                 </div>
                 <div class="text-center border-b border-slate-400 pb-2">
-                    <p class="font-bold text-slate-900">Cybersecurity Camp National Cybersecurity Academy.2024</p>
+                    <p class="font-bold text-slate-900"><i class="fa-solid fa-shield-halved text-blue-900 mr-1"></i> Cybersecurity Camp National Cybersecurity Academy.2024</p>
                     <a href="https://drive.google.com/file/d/1eeVogY_ssL89VuEIPiwdoMD0xEg8MBqL/view?usp=drivesdk" target="_blank" class="text-blue-900 underline block mt-0.5">↗ View Certificate</a>
                 </div>
                 <div class="text-center border-b border-slate-400 pb-2">
-                    <p class="font-bold text-slate-900">Cybersecurity Training Program Monsha'at.2024</p>
+                    <p class="font-bold text-slate-900"><i class="fa-solid fa-lock text-slate-800 mr-1"></i> Cybersecurity Training Program Monsha'at.2024</p>
                     <a href="https://drive.google.com/file/d/1y_svaqz7bWPEYh8a57i6zZQRG0HscPBp/view?usp=drivesdk" target="_blank" class="text-blue-900 underline block mt-0.5">↗ View Certificate</a>
                 </div>
                 <div class="text-center">
-                    <p class="font-bold text-slate-900">Artificial Intelligence Courses SDAIA.2025</p>
+                    <p class="font-bold text-slate-900"><i class="fa-solid fa-microchip text-slate-800 mr-1"></i> Artificial Intelligence Courses SDAIA.2025</p>
                     <a href="https://drive.google.com/file/d/15G0_8krYhEJ70bB1U5aNcQssf8WuyDc3/view?usp=drivesdk" target="_blank" class="text-blue-900 underline block mt-0.5">↗ View Certificates</a>
                 </div>
             </div>
         </section>
 
-        <!-- Page 5: Get in Touch -->
         <section id="page-contact" class="page-content hidden bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-3">
                 <h2 class="text-lg font-bold tracking-widest text-slate-900">GET IN TOUCH</h2>
             </div>
             <p class="text-xs text-center text-slate-800">Feel free to contact me with any opportunities or inquiries.</p>
             <div class="text-center space-y-3 text-xs">
-                <a href="https://drive.google.com/file/d/1zpPCA71AG5vM2f00pc4qCBUj7zjjV9M1/view?usp=drivesdk" target="_blank" class="block text-blue-900 underline font-medium">↗ View My CV</a>
+                <a href="https://drive.google.com/file/d/1zpPCA71AG5vM2f00pc4qCBUj7zjjV9M1/view?usp=drivesdk" target="_blank" class="block text-blue-900 underline font-medium text-sm"><i class="fa-solid fa-file-pdf mr-1 text-red-800"></i> View My CV</a>
                 <div>
-                    <span class="block font-bold text-slate-900">Email :</span>
+                    <span class="block font-bold text-slate-900"><i class="fa-solid fa-envelope mr-1"></i> Email :</span>
                     <span class="text-slate-800">weamswat1@gmail.com</span>
                 </div>
                 <div>
-                    <span class="block font-bold text-slate-900">Phone :</span>
+                    <span class="block font-bold text-slate-900"><i class="fa-solid fa-phone mr-1"></i> Phone :</span>
                     <span class="text-slate-800">0501620543</span>
                 </div>
                 <div>
-                    <span class="block font-bold text-slate-900">GitHub :</span>
+                    <span class="block font-bold text-slate-900"><i class="fa-brands fa-github mr-1"></i> GitHub :</span>
                     <a href="https://github.com/weam246" target="_blank" class="text-blue-900 underline">https://github.com/weam246</a>
                 </div>
             </div>
@@ -173,12 +167,10 @@
 
     </main>
 
-    <!-- Footer -->
     <footer class="text-center py-4 text-xs text-slate-300">
         © 2026 Engineer Weam. All rights reserved.
     </footer>
 
-    <!-- Simple Navigation Script -->
     <script>
         function showPage(pageId) {
             document.querySelectorAll('.page-content').forEach(p => p.classList.add('hidden'));
