@@ -61,44 +61,53 @@
             </div>
         </section>
 
-        <!-- Page About (Click anywhere inside card) -->
-        <section id="page-about" onclick="handleCardClick(event, 'about')" class="page-content hidden cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
-            <div class="text-center border-b border-slate-500 pb-4">
+        <!-- Page About -->
+        <section id="page-about" onclick="handleCardClick(event, 'about')" class="page-content hidden cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-5 shadow-xl">
+            <div class="text-center border-b border-slate-500 pb-3">
                 <h2 class="text-xl font-bold tracking-widest text-slate-900">ABOUT ME</h2>
             </div>
             <p class="text-xs sm:text-sm text-center text-slate-800 leading-relaxed px-4">
                 A Computer Engineering graduate passionate about technology and Artificial Intelligence. I have a basic understanding of UI/UX and am currently developing my skills in the field. I am always eager to learn, grow, and explore different areas of technology while turning ideas into innovative and effective digital solutions.
             </p>
-            <div class="text-center border-y border-slate-500 py-3">
+            <div class="text-center border-y border-slate-500 py-2.5">
                 <h3 class="text-sm font-bold tracking-wider text-slate-900">EDUCATION</h3>
-                <p class="text-xs text-slate-800 mt-1">BSc in Computer Engineering</p>
+                <p class="text-xs text-slate-800 mt-0.5">BSc in Computer Engineering</p>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-                <div class="flex justify-center">
-                    <svg class="w-28 h-28 text-slate-900" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5">
-                        <path d="M50 85 C30 70 15 55 15 40 C15 30 22 23 32 23 C38 23 44 26 50 33 C56 26 62 23 68 23 C78 23 85 30 85 40 C85 55 70 70 50 85 Z" fill="rgba(71,85,105,0.2)"/>
-                        <rect x="42" y="42" width="16" height="16" fill="currentColor"/>
-                        <path d="M50 15 V23 M50 85 V90 M15 40 H23 M77 40 H85" />
+            <div class="text-center space-y-2">
+                <h3 class="text-sm font-bold tracking-wider text-slate-900">TECH SKILLS</h3>
+                <div class="flex justify-center my-1">
+                    <svg class="w-32 h-32 text-slate-900" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M100 160 C50 120 25 90 25 60 C25 40 40 25 65 25 C80 25 93 35 100 48 C107 35 120 25 135 25 C160 25 175 40 175 60 C175 90 150 120 100 160 Z" />
+                        <path d="M100 48 V140" stroke-dasharray="2 2"/>
+                        <circle cx="65" cy="45" r="3" fill="currentColor"/>
+                        <circle cx="135" cy="45" r="3" fill="currentColor"/>
+                        <circle cx="45" cy="75" r="3" fill="currentColor"/>
+                        <circle cx="155" cy="75" r="3" fill="currentColor"/>
+                        <circle cx="65" cy="110" r="3" fill="currentColor"/>
+                        <circle cx="135" cy="110" r="3" fill="currentColor"/>
+                        <path d="M65 45 Q50 60 45 75 Q60 85 65 110" />
+                        <path d="M135 45 Q150 60 155 75 Q140 85 135 110" />
+                        <rect x="88" y="88" width="24" height="24" fill="#0f172a" stroke="none"/>
                     </svg>
                 </div>
-                <div class="text-xs space-y-3 text-slate-800">
+                <div class="text-xs space-y-1.5 text-slate-800">
                     <div>
-                        <strong class="block text-slate-900 font-bold"><i class="fa-solid fa-brain mr-1 text-slate-900"></i> Artificial Intelligence</strong>
+                        <strong class="block text-slate-900 font-bold">Artificial Intelligence</strong>
                         <span>TensorFlow/Keras , OpenCV</span>
                     </div>
                     <div>
-                        <strong class="block text-slate-900 font-bold"><i class="fa-solid fa-code mr-1 text-slate-900"></i> Web Development</strong>
+                        <strong class="block text-slate-900 font-bold">Web Development</strong>
                         <span>HTML , CSS , JavaScript</span>
                     </div>
                     <div>
-                        <strong class="block text-slate-900 font-bold"><i class="fa-solid fa-tools mr-1 text-slate-900"></i> Tools</strong>
+                        <strong class="block text-slate-900 font-bold">Tools</strong>
                         <span>MATLAB , GitHub , Figma</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Page Projects (Click anywhere inside card) -->
+        <!-- Page Projects -->
         <section id="page-projects" onclick="handleCardClick(event, 'projects')" class="page-content hidden cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-4">
                 <h2 class="text-xl font-bold tracking-widest text-slate-900">PROJECTS</h2>
@@ -114,15 +123,21 @@
                 </div>
             </div>
             <div class="flex justify-center pt-2">
-                <svg class="w-32 h-32 text-slate-900" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M50 15 C35 15 25 25 25 40 C20 40 15 45 15 52 C15 58 20 62 25 63 C25 78 35 88 50 88 V15 Z" fill="rgba(71,85,105,0.2)"/>
-                    <rect x="38" y="42" width="14" height="14" fill="currentColor"/>
-                    <path d="M52 49 H70 M60 35 V42 M60 56 V63" />
+                <svg class="w-32 h-32 text-slate-900" viewBox="0 0 160 160" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <!-- Left side: technical schematic brain half -->
+                    <path d="M80 30 C50 30 35 45 35 70 C25 70 15 80 15 95 C15 110 25 120 35 122 C35 140 50 150 80 150 V30 Z" fill="rgba(71,85,105,0.15)"/>
+                    <path d="M40 70 H65 M40 90 H60 M40 110 H65" stroke-dasharray="2 2"/>
+                    <rect x="52" y="78" width="20" height="20" fill="#0f172a" stroke="none"/>
+                    <!-- Right side: anatomical brain gyri half -->
+                    <path d="M80 30 C110 30 125 45 125 70 C135 70 145 80 145 95 C145 110 135 120 125 122 C125 140 110 150 80 150" />
+                    <path d="M95 45 C105 50 110 60 105 70 C100 80 110 90 105 100 C100 110 110 125 95 135" />
+                    <path d="M115 55 C125 65 125 80 118 95 C112 110 125 120 115 130" />
+                    <line x1="80" y1="25" x2="80" y2="155" stroke-width="1.5"/>
                 </svg>
             </div>
         </section>
 
-        <!-- Page Certificates (Click anywhere inside card) -->
+        <!-- Page Certificates -->
         <section id="page-certificates" onclick="handleCardClick(event, 'certificates')" class="page-content hidden cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-5 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-3">
                 <h2 class="text-base sm:text-lg font-bold tracking-widest text-slate-900">CERTIFICATES & COURSES</h2>
@@ -147,7 +162,7 @@
             </div>
         </section>
 
-        <!-- Page Contact (No click navigation needed here) -->
+        <!-- Page Contact -->
         <section id="page-contact" class="page-content hidden bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-3">
                 <h2 class="text-lg font-bold tracking-widest text-slate-900">GET IN TOUCH</h2>
