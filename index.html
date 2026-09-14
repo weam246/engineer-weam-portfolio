@@ -35,8 +35,8 @@
 
     <main class="flex-1 max-w-2xl w-full mx-auto px-6 py-8 flex flex-col justify-center">
 
-        <!-- Page Home -->
-        <section id="page-home" onclick="nextPage('home')" class="page-content cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-8 text-center space-y-6 shadow-xl">
+        <!-- Page Home (Enter button only) -->
+        <section id="page-home" class="page-content bg-slate-400 border-2 border-slate-500 rounded-2xl p-8 text-center space-y-6 shadow-xl">
             <div class="flex justify-center">
                 <svg class="w-64 h-12 text-slate-800" viewBox="0 0 400 60" fill="none" stroke="currentColor" stroke-width="1.5">
                     <path d="M10 30 H120 L150 15 H250 L280 30 H390" />
@@ -48,7 +48,7 @@
                 <p class="text-sm font-semibold text-slate-800 mt-2">Computer Engineering . 2026</p>
             </div>
             <div class="py-2">
-                <button onclick="event.stopPropagation(); showPage('about')" class="bg-slate-500 hover:bg-slate-600 text-white font-bold px-8 py-2.5 rounded-full border border-slate-700 shadow-md transition">Enter</button>
+                <button onclick="showPage('about')" class="bg-slate-500 hover:bg-slate-600 text-white font-bold px-8 py-2.5 rounded-full border border-slate-700 shadow-md transition">Enter</button>
             </div>
             <div>
                 <p class="text-xs italic text-slate-700 tracking-wider">Building ideas into reality</p>
@@ -61,8 +61,8 @@
             </div>
         </section>
 
-        <!-- Page About -->
-        <section id="page-about" onclick="nextPage('about')" class="page-content hidden cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
+        <!-- Page About (Click anywhere inside card) -->
+        <section id="page-about" onclick="handleCardClick(event, 'about')" class="page-content hidden cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-4">
                 <h2 class="text-xl font-bold tracking-widest text-slate-900">ABOUT ME</h2>
             </div>
@@ -98,7 +98,7 @@
             </div>
         </section>
 
-        <!-- Page Projects -->
+        <!-- Page Projects (Click anywhere inside card) -->
         <section id="page-projects" onclick="handleCardClick(event, 'projects')" class="page-content hidden cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-4">
                 <h2 class="text-xl font-bold tracking-widest text-slate-900">PROJECTS</h2>
@@ -122,7 +122,7 @@
             </div>
         </section>
 
-        <!-- Page Certificates -->
+        <!-- Page Certificates (Click anywhere inside card) -->
         <section id="page-certificates" onclick="handleCardClick(event, 'certificates')" class="page-content hidden cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-5 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-3">
                 <h2 class="text-base sm:text-lg font-bold tracking-widest text-slate-900">CERTIFICATES & COURSES</h2>
@@ -147,8 +147,8 @@
             </div>
         </section>
 
-        <!-- Page Contact -->
-        <section id="page-contact" onclick="handleCardClick(event, 'contact')" class="page-content hidden cursor-pointer bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
+        <!-- Page Contact (No click navigation needed here) -->
+        <section id="page-contact" class="page-content hidden bg-slate-400 border-2 border-slate-500 rounded-2xl p-6 space-y-6 shadow-xl">
             <div class="text-center border-b border-slate-500 pb-3">
                 <h2 class="text-lg font-bold tracking-widest text-slate-900">GET IN TOUCH</h2>
             </div>
