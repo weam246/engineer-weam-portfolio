@@ -1,11 +1,10 @@
-<svg width="551" height="522" viewBox="0 0 551 522" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g class="mix-blend-multiply">
-    <path d="M275.5 480C275.5 480 480 340 480 190C480 100 410 40 330 40C285 40 275.5 80 275.5 80C275.5 80 266 40 221 40C141 40 71 100 71 190C71 340 275.5 480 275.5 480Z" stroke="#0f172a" stroke-width="6" stroke-linejoin="round"/>
-    <rect x="235.5" y="150" width="80" height="80" rx="12" fill="#0f172a"/>
-    <path d="M275.5 150 V80 M275.5 230 V320 M235.5 190 H150 M315.5 190 H400" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="150" cy="190" r="10" fill="#0f172a"/>
-    <circle cx="400" cy="190" r="10" fill="#0f172a"/>
-    <circle cx="275.5" cy="80" r="10" fill="#0f172a"/>
-    <circle cx="275.5" cy="320" r="10" fill="#0f172a"/>
-  </g>
+<svg width="551" height="522" viewBox="0 0 551 522" xmlns="http://www.w3.org/2000/svg">
+  <filter id="remove-white" color-interpolation-filters="sRGB">
+    <feColorMatrix type="matrix" values="
+      1 0 0 0 0
+      0 1 0 0 0
+      0 0 1 0 0
+     -1 -1 -1 3 0" />
+  </filter>
+  <image href="c1d0a928-fb62-483f-9d94-1b9362ac0ecc.png" width="551" height="522" filter="url(#remove-white)" />
 </svg>
