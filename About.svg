@@ -1,17 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
-  <g fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Outer circuit frame / nodes -->
-    <circle cx="200" cy="200" r="160" stroke-dasharray="10 10" stroke-width="2" />
-    <path d="M200 40 V80 M200 320 V360 M40 200 H80 M320 200 H360" stroke-width="6" />
-    <!-- Core chip / tree structure -->
-    <rect x="160" y="160" width="80" height="80" rx="12" fill="#0f172a" />
-    <path d="M200 160 V100 M200 240 V300 M160 200 H100 M240 200 H300" stroke-width="5" />
-    <circle cx="100" cy="200" r="10" fill="#0f172a" />
-    <circle cx="300" cy="200" r="10" fill="#0f172a" />
-    <circle cx="200" cy="100" r="10" fill="#0f172a" />
-    <circle cx="200" cy="300" r="10" fill="#0f172a" />
-    <!-- Branching tech lines -->
-    <path d="M100 200 L60 160 M300 200 L340 160 M200 100 L160 60 M200 300 L160 340" />
-    <circle cx="200" cy="200" r="25" fill="none" stroke="#94a3b8" stroke-width="3" />
+<svg width="551" height="522" viewBox="0 0 551 522" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g class="mix-blend-multiply">
+    <path d="M275.5 480C275.5 480 480 340 480 190C480 100 410 40 330 40C285 40 275.5 80 275.5 80C275.5 80 266 40 221 40C141 40 71 100 71 190C71 340 275.5 480 275.5 480Z" stroke="#0f172a" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="235.5" y="150" width="80" height="80" rx="12" fill="#0f172a"/>
+    <path d="M275.5 150 V80 M275.5 230 V320 M235.5 190 H150 M315.5 190 H400" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="150" cy="190" r="10" fill="#0f172a"/>
+    <circle cx="400" cy="190" r="10" fill="#0f172a"/>
+    <circle cx="275.5" cy="80" r="10" fill="#0f172a"/>
+    <circle cx="275.5" cy="320" r="10" fill="#0f172a"/>
   </g>
 </svg>
