@@ -12,17 +12,17 @@
         }
     </style>
 </head>
-<body class="bg-[#5c6b73] text-[#222222] min-h-screen flex flex-col custom-font select-none">
+<body class="bg-[#e4ebf0] text-[#222222] min-h-screen flex flex-col custom-font select-none">
 
     <!-- Top Navigation Bar -->
-    <header class="bg-[#4a5860] border-b border-[#3b464d] px-4 py-3 flex flex-wrap justify-between items-center sticky top-0 z-50">
-        <span class="font-extrabold text-white text-base sm:text-lg tracking-wider">ENGINEER WEAM</span>
+    <header class="bg-[#d1dce5] border-b border-[#b8c7d4] px-4 py-3 flex flex-wrap justify-between items-center sticky top-0 z-50">
+        <span class="font-extrabold text-[#222] text-base sm:text-lg tracking-wider">ENGINEER WEAM</span>
         <nav class="flex flex-wrap gap-1.5 text-xs sm:text-sm font-bold">
-            <button onclick="showPage('home')" class="nav-btn px-2.5 py-1.5 rounded-lg bg-[#2e373d] text-white transition" data-target="home">Home</button>
-            <button onclick="showPage('about')" class="nav-btn px-2.5 py-1.5 rounded-lg text-slate-200 hover:bg-[#3b464d] transition" data-target="about">About Me</button>
-            <button onclick="showPage('projects')" class="nav-btn px-2.5 py-1.5 rounded-lg text-slate-200 hover:bg-[#3b464d] transition" data-target="projects">Projects</button>
-            <button onclick="showPage('certificates')" class="nav-btn px-2.5 py-1.5 rounded-lg text-slate-200 hover:bg-[#3b464d] transition" data-target="certificates">Certificates</button>
-            <button onclick="showPage('contact')" class="nav-btn px-2.5 py-1.5 rounded-lg text-slate-200 hover:bg-[#3b464d] transition" data-target="contact">Get in Touch</button>
+            <button onclick="showPage('home')" class="nav-btn px-2.5 py-1.5 rounded-lg bg-[#5c6b73] text-white transition" data-target="home">Home</button>
+            <button onclick="showPage('about')" class="nav-btn px-2.5 py-1.5 rounded-lg text-[#333] hover:bg-[#c5d3df] transition" data-target="about">About Me</button>
+            <button onclick="showPage('projects')" class="nav-btn px-2.5 py-1.5 rounded-lg text-[#333] hover:bg-[#c5d3df] transition" data-target="projects">Projects</button>
+            <button onclick="showPage('certificates')" class="nav-btn px-2.5 py-1.5 rounded-lg text-[#333] hover:bg-[#c5d3df] transition" data-target="certificates">Certificates</button>
+            <button onclick="showPage('contact')" class="nav-btn px-2.5 py-1.5 rounded-lg text-[#333] hover:bg-[#c5d3df] transition" data-target="contact">Get in Touch</button>
         </nav>
     </header>
 
@@ -30,7 +30,7 @@
     <main class="flex-1 max-w-2xl w-full mx-auto px-4 py-6 flex flex-col justify-center">
 
         <!-- Page 1: Home -->
-        <section id="page-home" class="page-content bg-[#87959e] border-2 border-[#5c6b73] rounded-2xl p-6 sm:p-8 text-center space-y-6 shadow-2xl relative z-10">
+        <section id="page-home" class="page-content bg-white border border-[#c5d3df] rounded-2xl p-6 sm:p-8 text-center space-y-6 shadow-lg">
             <div class="flex justify-center">
                 <svg class="w-56 sm:w-64 h-10 sm:h-12 text-[#222]" viewBox="0 0 400 60" fill="none" stroke="currentColor" stroke-width="1.5">
                     <path d="M10 30 H110 L130 15 H270 L290 30 H390 M40 30 H80 M320 30 H360" />
@@ -39,13 +39,13 @@
             </div>
             <div>
                 <h1 class="text-3xl sm:text-4xl font-black tracking-widest text-[#222]">ENGINEER WEAM</h1>
-                <p class="text-xs sm:text-sm font-bold text-[#333] mt-2">Computer Engineering . 2026</p>
+                <p class="text-xs sm:text-sm font-bold text-[#555] mt-2">Computer Engineering . 2026</p>
             </div>
-            <div class="py-2 relative z-20">
-                <button type="button" onclick="showPage('about')" class="cursor-pointer bg-[#717d85] hover:bg-[#4a5860] text-white font-bold px-10 py-2.5 rounded-full border border-[#4a5860] shadow-md transition inline-block">Enter</button>
+            <div class="py-2">
+                <button type="button" onclick="showPage('about')" class="cursor-pointer bg-[#e4ebf0] hover:bg-[#d1dce5] text-[#222] font-bold px-10 py-2.5 rounded-full border border-[#b8c7d4] shadow-sm transition inline-block">Enter</button>
             </div>
             <div>
-                <p class="text-xs italic text-[#444] tracking-wider">Building ideas into reality</p>
+                <p class="text-xs italic text-[#666] tracking-wider">Building ideas into reality</p>
             </div>
             <div class="flex justify-center">
                 <svg class="w-56 sm:w-64 h-10 sm:h-12 text-[#222]" viewBox="0 0 400 60" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -56,24 +56,24 @@
         </section>
 
         <!-- Page 2: About Me -->
-        <section id="page-about" class="page-content hidden bg-[#87959e] border-2 border-[#5c6b73] rounded-2xl p-6 space-y-6 shadow-2xl relative z-10">
-            <div class="text-center border-b border-[#6e7d87] pb-4">
+        <section id="page-about" class="page-content hidden bg-white border border-[#c5d3df] rounded-2xl p-6 space-y-6 shadow-lg">
+            <div class="text-center border-b border-[#e4ebf0] pb-4">
                 <h2 class="text-xl font-black tracking-widest text-[#222]">ABOUT ME</h2>
             </div>
-            <p class="text-xs sm:text-sm text-center text-[#2a2a2a] leading-relaxed px-2">
+            <p class="text-xs sm:text-sm text-center text-[#333] leading-relaxed px-2">
                 A Computer Engineering graduate passionate about technology and Artificial Intelligence. I have a basic understanding of UI/UX and am currently developing my skills in the field. I am always eager to learn, grow, and explore different areas of technology while turning ideas into innovative and effective digital solutions.
             </p>
-            <div class="text-center border-y border-[#6e7d87] py-3">
+            <div class="text-center border-y border-[#e4ebf0] py-3">
                 <h3 class="text-sm font-bold tracking-wider text-[#222]">EDUCATION</h3>
-                <p class="text-xs text-[#333] mt-1">BSc in Computer Engineering</p>
+                <p class="text-xs text-[#555] mt-1">BSc in Computer Engineering</p>
             </div>
-            <div class="text-center border-b border-[#6e7d87] pb-2">
+            <div class="text-center border-b border-[#e4ebf0] pb-2">
                 <h3 class="text-sm font-bold tracking-wider text-[#222]">TECH SKILLS</h3>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                 <div class="flex justify-center">
                     <svg class="w-28 h-28 sm:w-32 sm:h-32 text-[#222]" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2">
-                        <path d="M50 15 C30 15 15 30 15 50 C15 70 30 85 50 85 C55 85 60 83 64 80 C70 85 80 85 85 78 C90 70 85 60 88 50 C88 35 75 15 50 15 Z" fill="rgba(74,88,96,0.15)"/>
+                        <path d="M50 15 C30 15 15 30 15 50 C15 70 30 85 50 85 C55 85 60 83 64 80 C70 85 80 85 85 78 C90 70 85 60 88 50 C88 35 75 15 50 15 Z" fill="rgba(92,107,115,0.15)"/>
                         <rect x="42" y="42" width="16" height="16" fill="currentColor"/>
                         <path d="M50 15 V42 M50 58 V85 M15 50 H42 M58 50 H85 M30 30 L42 42 M70 30 L58 42 M30 70 L42 58 M70 70 L58 58" />
                     </svg>
@@ -81,38 +81,38 @@
                 <div class="text-xs space-y-3 text-[#222]">
                     <div>
                         <strong class="block text-[#111] font-bold">Artificial Intelligence</strong>
-                        <span class="text-[#333]">TensorFlow/Keras . OpenCV</span>
+                        <span class="text-[#555]">TensorFlow/Keras . OpenCV</span>
                     </div>
                     <div>
                         <strong class="block text-[#111] font-bold">Web Development</strong>
-                        <span class="text-[#333]">HTML . CSS . JavaScript</span>
+                        <span class="text-[#555]">HTML . CSS . JavaScript</span>
                     </div>
                     <div>
                         <strong class="block text-[#111] font-bold">Tools</strong>
-                        <span class="text-[#333]">MATLAB . GitHub . Figma</span>
+                        <span class="text-[#555]">MATLAB . GitHub . Figma</span>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Page 3: Projects -->
-        <section id="page-projects" class="page-content hidden bg-[#87959e] border-2 border-[#5c6b73] rounded-2xl p-6 space-y-6 shadow-2xl relative z-10">
-            <div class="text-center border-b border-[#6e7d87] pb-4">
+        <section id="page-projects" class="page-content hidden bg-white border border-[#c5d3df] rounded-2xl p-6 space-y-6 shadow-lg">
+            <div class="text-center border-b border-[#e4ebf0] pb-4">
                 <h2 class="text-xl font-black tracking-widest text-[#222]">PROJECTS</h2>
             </div>
             <div class="text-center space-y-4 py-2">
                 <p class="text-xs sm:text-sm font-bold text-[#222] leading-relaxed">
                     Brain Pressure Measurement Using the Ear<br>
-                    <span class="text-xs text-[#333] font-semibold">3rd Place-College Graduation Projects</span>
+                    <span class="text-xs text-[#555] font-semibold">3rd Place-College Graduation Projects</span>
                 </p>
-                <div class="space-y-2 relative z-20">
-                    <a href="https://drive.google.com/file/d/1HatqcY8fk-QlEur4kQY83jG268s_S9E_/view?usp=drivesdk" target="_blank" class="block text-xs text-[#1a365d] underline font-bold hover:text-white transition">↗ View Project Poster</a>
-                    <a href="https://drive.google.com/file/d/1jywTqsh9zhf0nz4hLhuuWp3emNiR0L41/view?usp=drivesdk" target="_blank" class="block text-xs text-[#1a365d] underline font-bold hover:text-white transition">↗ View Certificates of Appreciation</a>
+                <div class="space-y-2">
+                    <a href="https://drive.google.com/file/d/1HatqcY8fk-QlEur4kQY83jG268s_S9E_/view?usp=drivesdk" target="_blank" class="block text-xs text-[#1a365d] underline font-bold hover:text-black transition">↗ View Project Poster</a>
+                    <a href="https://drive.google.com/file/d/1jywTqsh9zhf0nz4hLhuuWp3emNiR0L41/view?usp=drivesdk" target="_blank" class="block text-xs text-[#1a365d] underline font-bold hover:text-black transition">↗ View Certificates of Appreciation</a>
                 </div>
             </div>
             <div class="flex justify-center pt-2">
                 <svg class="w-32 h-32 sm:w-36 sm:h-36 text-[#222]" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2">
-                    <path d="M50 15 C30 15 15 30 15 50 C15 70 30 85 50 85 V15 Z" fill="rgba(74,88,96,0.2)"/>
+                    <path d="M50 15 C30 15 15 30 15 50 C15 70 30 85 50 85 V15 Z" fill="rgba(92,107,115,0.2)"/>
                     <rect x="38" y="42" width="14" height="14" fill="currentColor"/>
                     <path d="M52 49 H70 M60 35 V42 M60 56 V63 M75 30 C85 35 90 45 88 55 C85 65 75 75 70 80" />
                 </svg>
@@ -120,20 +120,20 @@
         </section>
 
         <!-- Page 4: Certificates & Courses -->
-        <section id="page-certificates" class="page-content hidden bg-[#87959e] border-2 border-[#5c6b73] rounded-2xl p-6 space-y-4 shadow-2xl relative z-10">
-            <div class="text-center border-b border-[#6e7d87] pb-3">
+        <section id="page-certificates" class="page-content hidden bg-white border border-[#c5d3df] rounded-2xl p-6 space-y-4 shadow-lg">
+            <div class="text-center border-b border-[#e4ebf0] pb-3">
                 <h2 class="text-base sm:text-lg font-black tracking-widest text-[#222]">CERTIFICATES & COURSES</h2>
             </div>
-            <div class="space-y-3 text-xs relative z-20">
-                <div class="text-center border-b border-[#6e7d87] pb-2.5">
+            <div class="space-y-3 text-xs">
+                <div class="text-center border-b border-[#e4ebf0] pb-2.5">
                     <p class="font-bold text-[#222]">Training Certificates Smart Methods.2025</p>
                     <a href="https://drive.google.com/file/d/1jH-_RsqkbgIyqXAsuHVLdEY3eEgTcwhp/view?usp=drivesdk" target="_blank" class="text-[#1a365d] underline font-bold block mt-0.5">↗ View Certificates</a>
                 </div>
-                <div class="text-center border-b border-[#6e7d87] pb-2.5">
+                <div class="text-center border-b border-[#e4ebf0] pb-2.5">
                     <p class="font-bold text-[#222]">Cybersecurity Camp National Cybersecurity Academy.2024</p>
                     <a href="https://drive.google.com/file/d/1eeVogY_ssL89VuEIPiwdoMD0xEg8MBqL/view?usp=drivesdk" target="_blank" class="text-[#1a365d] underline font-bold block mt-0.5">↗ View Certificate</a>
                 </div>
-                <div class="text-center border-b border-[#6e7d87] pb-2.5">
+                <div class="text-center border-b border-[#e4ebf0] pb-2.5">
                     <p class="font-bold text-[#222]">Cybersecurity Training Program Monsha'at.2024</p>
                     <a href="https://drive.google.com/file/d/1y_svaqz7bWPEYh8a57i6zZQRG0HscPBp/view?usp=drivesdk" target="_blank" class="text-[#1a365d] underline font-bold block mt-0.5">↗ View Certificate</a>
                 </div>
@@ -144,20 +144,20 @@
             </div>
         </section>
 
-        <!-- Page 5: Get in Touch -->
-        <section id="page-contact" class="page-content hidden bg-[#87959e] border-2 border-[#5c6b73] rounded-2xl p-6 space-y-6 shadow-2xl relative z-10">
-            <div class="text-center border-b border-[#6e7d87] pb-3">
+        <!-- Page 5: Get in Touch (CV button removed) -->
+        <section id="page-contact" class="page-content hidden bg-white border border-[#c5d3df] rounded-2xl p-6 space-y-6 shadow-lg">
+            <div class="text-center border-b border-[#e4ebf0] pb-3">
                 <h2 class="text-lg font-black tracking-widest text-[#222]">GET IN TOUCH</h2>
             </div>
-            <p class="text-xs text-center text-[#2a2a2a]">Feel free to contact me with any opportunities or inquiries.</p>
-            <div class="text-center space-y-3 text-xs relative z-20">
+            <p class="text-xs text-center text-[#555]">Feel free to contact me with any opportunities or inquiries.</p>
+            <div class="text-center space-y-3 text-xs">
                 <div class="text-[#222]">
                     <span class="font-bold">Email :</span>
-                    <span class="text-[#333]">weamswat1@gmail.com</span>
+                    <span class="text-[#555]">weamswat1@gmail.com</span>
                 </div>
                 <div class="text-[#222]">
                     <span class="font-bold">Phone :</span>
-                    <span class="text-[#333]">0501620543</span>
+                    <span class="text-[#555]">0501620543</span>
                 </div>
                 <div class="text-[#222]">
                     <span class="font-bold">GitHub :</span>
@@ -169,7 +169,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="text-center py-4 text-xs text-[#d0d7de]">
+    <footer class="text-center py-4 text-xs text-[#5c6b73]">
         © 2026 Engineer Weam. All rights reserved.
     </footer>
 
@@ -188,14 +188,13 @@
             
             document.querySelectorAll('.nav-btn').forEach(btn => {
                 if(btn.dataset.target === pageId) {
-                    btn.className = 'nav-btn px-2.5 py-1.5 rounded-lg bg-[#2e373d] text-white transition';
+                    btn.className = 'nav-btn px-2.5 py-1.5 rounded-lg bg-[#5c6b73] text-white transition';
                 } else {
-                    btn.className = 'nav-btn px-2.5 py-1.5 rounded-lg text-slate-200 hover:bg-[#3b464d] transition';
+                    btn.className = 'nav-btn px-2.5 py-1.5 rounded-lg text-[#333] hover:bg-[#c5d3df] transition';
                 }
             });
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-        // Ensure default display state on load
         window.addEventListener('DOMContentLoaded', () => {
             showPage('home');
         });
